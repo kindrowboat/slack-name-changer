@@ -1,0 +1,1 @@
+0 * * * * root . /root/envs.sh; curl -X POST "https://slack.com/api/users.profile.set?token=${TOKEN}&name=first_name&user=U078ER1QW&value=${NAME}&pretty=1" >> /var/log/cron.log 2>&1
